@@ -22,3 +22,9 @@ function dec( n ) {
   return n--;
 }
 
+function makeInt( n ) {
+  if ( isNaN(n) === true ) {
+    return NaN;
+  }
+}
+
