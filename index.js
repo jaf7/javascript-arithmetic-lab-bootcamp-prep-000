@@ -25,9 +25,7 @@ function dec( n ) {
 function makeInt( n ) {
   if ( isNaN(n) === true ) {
     return NaN;
+  } else {
+    return parseInt( n, 10 );
   }
-  if () {} // base 10 === false test, convert to base 10
-
-  return parseInt( n );
 }
-
